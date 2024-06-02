@@ -178,14 +178,7 @@ body {
     margin-bottom: 20px;
 }
 
-.experiences__company-header-durability {
-    color: var(--durability-text-color);
-    text-align: left;
-    margin-bottom: 10px;
-    font-size: 15px;
-}
-
-.experiences__company-header-name {
+.experiences__project-header-name {
     color: var(--primary-text-color);
     text-decoration-color: var(--text-decoration-color);
     text-decoration-line: underline;
@@ -193,30 +186,44 @@ body {
     margin-bottom: 20px;
 }
 
-.experiences__company-project {
+.experiences__project-link {
+    display: flex;
+    padding: 5px;
+    border: 1px solid var(--border-color);
+    text-decoration: none;
+    color: var(--primary-text-color);
+    font-weight: 600;
+}
+
+.experiences__project-link-icon-wrapper {
+    margin-right: 10px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.experiences__project-link-icon path {
+    fill: var(--icon-color);
+}
+
+.experiences__project-technologies {
     margin-left: 15px;
     margin-bottom: 25px;
 }
 
-.experiences__company-project-role {
-    color: var(--durability-text-color);
-    text-align: left;
-    margin-bottom: 10px;
-    font-size: 15px;
-}
-
-.experiences__company-project-name {
+.experiences__project-technologies-header {
     color: var(--primary-text-color);
     text-align: left;
     margin-bottom: 10px;
 }
 
-.experiences__company-project-responsibilities {
+.experiences__project-technologies-list {
     color: var(--secondary-text-color);
     padding-left: 20px;
 }
 
 .additional-info {
+    justify-content: flex-start;
     flex: 1 1 40%;
 }
 
@@ -259,4 +266,19 @@ body {
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+
+.additional-info__interests {
+    color: var(--secondary-text-color);
+    margin-bottom: 20px;
+}
+
+.additional-info__interests-header {
+}
+
+.additional-info__interests-items {
+    margin: 10px 0 0 10px;
+}
+
+.additional-info__interests-item {
 }
