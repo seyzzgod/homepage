@@ -282,3 +282,27 @@ body {
 
 .additional-info__interests-item {
 }
+
+.events {
+}
+
+.events__header {
+    margin-bottom: 20px;
+}
+
+.events__item {
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.events__item:last-child {
+    margin-bottom: 0;
+}
+.events__item-content {
+}
+
+.events__item-content-year {
+}
+
+.events__item-content-description {
+}
