@@ -266,3 +266,18 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
+.additional-info__interests {
+    color: var(--secondary-text-color);
+    margin-bottom: 20px;
+}
+
+.additional-info__interests-header {
+}
+
+.additional-info__interests-items {
+    margin: 10px 0 0 10px;
+}
+
+.additional-info__interests-item {
+}
